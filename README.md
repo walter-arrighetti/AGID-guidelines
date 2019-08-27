@@ -2,6 +2,7 @@
 ## Linee Guida AgID ex art. 71 del CAD
 
 Capoverso/i introduttivo/i.
+
 Modificare i file `README.md` e il file `index.rst` affinché contengano la descrizione generale delle Linee Guida e, rispettivamente, l'indice dei contenuti del documento, che può puntare ad altri file RST; si consiglia l'uso di un file RST per ciascun documento separato (ad esempio: documento principale più i suoi Allegati). Documenti particolarmente lunghi possono essere suddivisi usando un file RST per ciascun capitolo.
 
  * Si consiglia di collocare gli eventuali Allegati in una sottocartella dedicata `attachments/`.
