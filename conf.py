@@ -1,32 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# The master toctree document.	
-master_doc = 'index'
+master_doc = 'index'                      # The master toctree document.
 
-# -- Options for LaTeX output ---------------------------------------------
+#### Options for LaTeX output
+latex_elements = { 'papersize':"a4paper" }
 
-latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
-}
+latex_logo = "media/images/AgID-logo.png"  # The name of an image file to place at the top of the title page.
+latex_show_pagerefs = False                # If true, show page references after internal links.
+latex_show_urls = False                    # If true, show URL addresses after external links.
 
-# The name of an image file (relative to this directory) to place at the top of
-# the title page.
-latex_logo = "media/agid-logo.png"
-
-# If true, show page references after internal links.
-latex_show_pagerefs = False
-
-# If true, show URL addresses after external links.
-latex_show_urls = False
-
-# Documents to append as an appendix to all manuals.
+# Documents to append as an Appendix to all manuals.
 latex_appendices = [
-    "attachments/allegato-b-guida-alla-pubblicazione-open-source-di-software-realizzato-per-la-pa",
-    "attachments/allegato-c-guida-alla-manutenzione-di-software-open-source",
-    "attachments/allegato-d-guida-alle-licenze-open-source",
-    "attachments/allegato-e-guida-alla-modifica-di-software-open-source-preso-a-riuso-o-di-terzi",
-    "attachments/allegato-e-guida-alla-modifica-di-software-open-source-preso-a-riuso-o-di-terzi",
-    "attachments/allegato-f-tabella-sinottica-degli-elementi-necessari-al-percorso-decisionale",
+#    "attachments/",
 ]
