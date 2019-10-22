@@ -1,6 +1,20 @@
 document:
-  name: Linee Guida XXX
+  type: Linee guida
+  name: Regole Tecniche per XXXXX
+  short_name: Ll.gg. XXXXXX
+  author: walter-arrighetti
+  contributors:
+    - Coautore #1
+    - Coautore #2
+    - Coautore #3
+    - Walter Arrighetti
   description: |
-    Linee Guida per XXX
+    Linee Guida contenenti Regole Tecniche circa XXXXXXXXXXXXXXXXXXXXXXXXXXXX
   tags:
-    - "SPID"
+    - tag1
+    - tag2
+    - tag3
+    - tag4
+    - tag5
+    - QSeal
+  origin: https://github.com/test-lg/NAME-OF-REPOSITORY/
